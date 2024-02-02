@@ -11,3 +11,8 @@ https://github.com/JanaBan99/Pcap-file-Anylzer/assets/95229070/b728e1a6-380d-47a
 Before eunning the code, install these two.
 1. pip install tkinter
 2. pip install scapy
+
+
+Version 1 : Just a script that prints out DHCP packets are found and if the three-way handshake is done
+
+Version 2: Same but all are showed in a GUI
