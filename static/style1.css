@@ -1,0 +1,83 @@
+/* Reset some default styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Set background color for the body */
+body {
+    background-color: #25385d; /* Choose your preferred background color */
+    font-family: "Poppins", sans-serif; /* Set a default font family */
+}
+
+/* Center the container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff; /* White box background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+/* Style the header */
+header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center; /* Center the text */
+}
+
+/* Style the form elements */
+form {
+    margin-bottom: 20px;
+}
+
+/* Style the row with icon and details */
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.row i {
+    margin-right: 10px;
+}
+
+/* Style the progress area */
+.progress-area {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #ddd; /* Progress bar background color */
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    width: 50%; /* Adjust the width as needed for progress */
+    height: 100%;
+    background-color: #4caf50; /* Progress color */
+}
+
+/* Style the uploaded area */
+.uploaded-area {
+    margin-bottom: 20px;
+}
+
+.uploaded-area .content {
+    display: flex;
+    align-items: center;
+}
+
+.fa-check {
+    color: #4caf50; /* Check icon color */
+    margin-right: 10px;
+}
+
+/* Style additional details or elements as needed */
